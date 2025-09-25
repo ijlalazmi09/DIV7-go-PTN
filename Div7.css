@@ -214,3 +214,82 @@ nav ul {
       50% { transform: translateY(-20px); }
       100% { transform: translateY(0px); }
     }
+
+    /* ===== Section Global ===== */
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4f200d;
+  text-shadow: 2px 2px 0px rgba(255, 154, 0, 0.5);
+}
+
+section {
+  padding: 80px 10%;
+  background-color: #f6f1e9;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+/* ===== About Section ===== */
+.about-section p {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ===== Category Section ===== */
+.category-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.category-card {
+  background: #ffd93d;
+  padding: 20px 30px;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #4f200d;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: #ff9a00;
+  color: white;
+}
+
+/* ===== Contact Section ===== */
+.contact-section p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.btn-contact {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #ff9a00;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  background: #4f200d;
+}
+
